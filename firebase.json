@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/hoanghoadev",
+    "public": "dist/hoanghoadev/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
