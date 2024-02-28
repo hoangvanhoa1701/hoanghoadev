@@ -16,7 +16,7 @@
 
 #nv-game-level {
   position: relative;
-  width: 100%;
+  width: 101%;
   height: 100vh;
   padding: 100px;
   display: flex;
@@ -83,17 +83,18 @@
   #btn {
     z-index: 13;
     position: absolute;
-    bottom: 100px;
+    bottom: 250px;
     text-decoration: none;
-    padding: 8px 32px;
+    padding: 12px 32px;
     border-radius: 40px;
-    background: #ffffff;
-    box-shadow: 3px 3px 20px 0 #2b1055;
+    background: #fff;
+    box-shadow: 3px 3px 20px #2b1055;
     color: #2b1055;
     font-weight: 700;
     cursor: pointer;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    font-size: 20px;
     &:hover {
       background: #2b105582;
       color: #ffffff;
