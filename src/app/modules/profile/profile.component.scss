@@ -107,7 +107,7 @@
 .sec {
   position: relative;
   background: #1c0522;
-  //padding: 28px 0 1340px; // PDF
+  //padding: 0 0 1340px; // PDF
   padding: 28px 0 40px;
 
   h2 {
@@ -131,7 +131,7 @@
     //padding-top: 140px; // PDF
     padding-top: 0;
     .profile {
-      //margin-bottom: 800px // PDF
+      //margin-bottom: 800px; // PDF
       margin-bottom: 0;
     }
   }
@@ -259,7 +259,7 @@
 
   .list__social__common {
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   .list__social__common li {
@@ -294,7 +294,7 @@
 
   .timeline {
     position: relative;
-    margin: 50px 0;
+    margin: 40px 0;
   }
 
   .timeline:before {
@@ -492,12 +492,29 @@
   }
 
   .profile__main__left .my__contact .desc__common {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+  }
+
+  .profile__main__left .my__information-more {
+    .desc {
+      padding-top: 20px;
+      padding-bottom: 30px;
+    }
+    h6 {
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #35495ed9;
+      margin-bottom: 4px;
+    }
+    .desc__common {
+      margin-bottom: 20px;
+    }
   }
 
   .profile__main__left .my__activity {
     .desc {
-      padding-top: 30px;
+      padding-top: 40px;
       padding-bottom: 30px;
     }
     h6 {
@@ -552,7 +569,19 @@
   }
 
   .profile__main__right .my__capabilities .soft__skill {
-    padding: 30px 0 50px 0;
+    padding: 20px 0 30px 0;
+  }
+
+  .profile__main__right .my__capabilities .soft__types {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 28px;
+    li {
+      margin-bottom: 8px;
+    }
   }
 
   .profile__main__right .my__capabilities .soft__skill h5 {
